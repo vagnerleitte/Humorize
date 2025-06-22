@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90F91D52E074E10004565F1 /* EmotionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F91D42E074E10004565F1 /* EmotionStorage.swift */; };
+		E90F91D72E077FE6004565F1 /* HumorItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F91D62E077FE5004565F1 /* HumorItemView.swift */; };
+		E91392A42E073752000F03CB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91392A32E073752000F03CB /* DashboardView.swift */; };
+		E91392A62E073853000F03CB /* AddHumorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91392A52E073853000F03CB /* AddHumorView.swift */; };
 		E9D163DA2DF4E52D0040EA4B /* HumorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D163D92DF4E52D0040EA4B /* HumorizeApp.swift */; };
 		E9D163DC2DF4E52D0040EA4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D163DB2DF4E52D0040EA4B /* ContentView.swift */; };
 		E9D163DE2DF4E5310040EA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D163DD2DF4E5310040EA4B /* Assets.xcassets */; };
@@ -14,6 +18,9 @@
 		E9D163EC2DF4E5310040EA4B /* HumorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D163EB2DF4E5310040EA4B /* HumorizeTests.swift */; };
 		E9D163F62DF4E5310040EA4B /* HumorizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D163F52DF4E5310040EA4B /* HumorizeUITests.swift */; };
 		E9D163F82DF4E5310040EA4B /* HumorizeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D163F72DF4E5310040EA4B /* HumorizeUITestsLaunchTests.swift */; };
+		E9D164052DF4E8B70040EA4B /* EmotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D164042DF4E8B70040EA4B /* EmotionModel.swift */; };
+		E9D164072DF4E9D50040EA4B /* CodableColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D164062DF4E9D50040EA4B /* CodableColor.swift */; };
+		E9D56C2E2E073F1000141E0C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D56C2D2E073F1000141E0C /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E90F91D42E074E10004565F1 /* EmotionStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionStorage.swift; sourceTree = "<group>"; };
+		E90F91D62E077FE5004565F1 /* HumorItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumorItemView.swift; sourceTree = "<group>"; };
+		E91392A32E073752000F03CB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E91392A52E073853000F03CB /* AddHumorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHumorView.swift; sourceTree = "<group>"; };
 		E9D163D62DF4E52D0040EA4B /* Humorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D163D92DF4E52D0040EA4B /* HumorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumorizeApp.swift; sourceTree = "<group>"; };
 		E9D163DB2DF4E52D0040EA4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +56,9 @@
 		E9D163F12DF4E5310040EA4B /* HumorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D163F52DF4E5310040EA4B /* HumorizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumorizeUITests.swift; sourceTree = "<group>"; };
 		E9D163F72DF4E5310040EA4B /* HumorizeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumorizeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9D164042DF4E8B70040EA4B /* EmotionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionModel.swift; sourceTree = "<group>"; };
+		E9D164062DF4E9D50040EA4B /* CodableColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableColor.swift; sourceTree = "<group>"; };
+		E9D56C2D2E073F1000141E0C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +109,18 @@
 		E9D163D82DF4E52D0040EA4B /* Humorize */ = {
 			isa = PBXGroup;
 			children = (
+				E91392A52E073853000F03CB /* AddHumorView.swift */,
 				E9D163D92DF4E52D0040EA4B /* HumorizeApp.swift */,
 				E9D163DB2DF4E52D0040EA4B /* ContentView.swift */,
+				E91392A32E073752000F03CB /* DashboardView.swift */,
 				E9D163DD2DF4E5310040EA4B /* Assets.xcassets */,
 				E9D163DF2DF4E5310040EA4B /* Humorize.entitlements */,
 				E9D163E02DF4E5310040EA4B /* Preview Content */,
+				E9D164042DF4E8B70040EA4B /* EmotionModel.swift */,
+				E9D164062DF4E9D50040EA4B /* CodableColor.swift */,
+				E9D56C2D2E073F1000141E0C /* ProfileView.swift */,
+				E90F91D42E074E10004565F1 /* EmotionStorage.swift */,
+				E90F91D62E077FE5004565F1 /* HumorItemView.swift */,
 			);
 			path = Humorize;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91392A62E073853000F03CB /* AddHumorView.swift in Sources */,
 				E9D163DC2DF4E52D0040EA4B /* ContentView.swift in Sources */,
+				E9D164052DF4E8B70040EA4B /* EmotionModel.swift in Sources */,
+				E91392A42E073752000F03CB /* DashboardView.swift in Sources */,
+				E9D164072DF4E9D50040EA4B /* CodableColor.swift in Sources */,
+				E90F91D72E077FE6004565F1 /* HumorItemView.swift in Sources */,
+				E9D56C2E2E073F1000141E0C /* ProfileView.swift in Sources */,
 				E9D163DA2DF4E52D0040EA4B /* HumorizeApp.swift in Sources */,
+				E90F91D52E074E10004565F1 /* EmotionStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +440,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Humorize/Humorize.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Humorize/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H4TCPBPYP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -433,6 +463,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vagner.Humorize;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.vagner.humporize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -448,9 +479,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Humorize/Humorize.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Humorize/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H4TCPBPYP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -469,6 +502,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vagner.Humorize;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.vagner.humporize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -485,6 +519,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H4TCPBPYP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
@@ -507,6 +542,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H4TCPBPYP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
@@ -528,6 +564,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H4TCPBPYP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
@@ -549,6 +586,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H4TCPBPYP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
