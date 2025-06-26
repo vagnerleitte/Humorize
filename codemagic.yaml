@@ -8,7 +8,7 @@ workflows:
         script: |
           xcodebuild build \
             -project "Humorize.xcodeproj" \
-            -scheme "com.vagner.humorize" \
+            -scheme "Humorize" \
             -sdk iphonesimulator \
             -configuration Debug          
     artifacts:
